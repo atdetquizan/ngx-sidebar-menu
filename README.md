@@ -1,3 +1,3 @@
 # ngx-sidebar-menu
 
-![Screenshot](menu-navegation.jpeg)
+![Screenshot](menu-navegation-demo.jpeg)
