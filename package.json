@@ -1,0 +1,22 @@
+{
+  "name": "ngxsidebar-menu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "dead-server --cors --port=4400 ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atdetquizan/ngx-sidebar-menu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atdetquizan/ngx-sidebar-menu/issues"
+  },
+  "homepage": "https://github.com/atdetquizan/ngx-sidebar-menu#readme",
+  "devDependencies": {
+    "dead-server": "^1.0.9"
+  }
+}

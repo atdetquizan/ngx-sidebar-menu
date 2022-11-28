@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="sidebar-navbar-toggler">
+            <button type="button" class="sidebar-navbar-toggler__button">
+                <i class='bx bx-chevron-left'></i>
+            </button>
+        </div>
+        <div class="sidebar-logo">
+            <i class='bx bx-code-curly sidebar-logo__icon'></i>
+            <!-- <span class="sidebar-logo__name">NEYHAZ</span> -->
+        </div>
+        <nav class="sidebar-navegation">
+            <ul class="sidebar-navegation-links">
+                <li class="navegation-link navegation-link--actived">
+                    <a href="#">
+                        <i class='bx bx-mail-send navegation-link__icon'></i>
+                        <span class="navegation-link__name">Mensajes enviados</span>
+                    </a>
+                </li>
+                <li class="navegation-link">
+                    <a href="#">
+                        <i class='bx bx-calendar navegation-link__icon'></i>
+                        <span class="navegation-link__name">Calendario</span>
+                    </a>
+                    <div class="navegation-actions-list">
+                        <span class="navegation-badge">10</span>
+                    </div>
+                </li>
+                <li class="navegation-link">
+                    <a href="#">
+                        <i class='bx bx-dollar-circle navegation-link__icon'></i>
+                        <span class="navegation-link__name">Pagos</span>
+                    </a>
+                    <div class="navegation-actions-list">
+                        <button type="button" class="navegation-action">
+                            <i class='bx bx-plus-circle'></i>
+                        </button>
+                        <span class="navegation-badge">10</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="navegation-group">
+                        <a href="#">
+                            <i class='bx bxs-notepad navegation-link__icon'></i>
+                            <span class="navegation-link__name">Mantenedores</span>
+                        </a>
+                        <!-- <i class='bx bx-chevron-right navegation-link__down'></i> -->
+                        <i class='bx bx-chevron-down navegation-link__down'></i>
+                    </div>
+                    <ul class="navegation-group-links">
+                        <li><a href="#">Earnings</a></li>
+                        <li><a href="#">Refunds</a></li>
+                        <li><a href="#">Declines</a></li>
+                        <li><a href="#">Payouts</a></li>
+                    </ul>
+                </li>
+                <li class="navegation-link">
+                    <a href="#">
+                        <i class='bx bxs-news navegation-link__icon'></i>
+                        <span class="navegation-link__name">Venta de productos</span>
+                    </a>
+                </li>
+                <li>
+                    <div class="navegation-group">
+                        <a href="#">
+                            <i class='bx bxs-purchase-tag-alt navegation-link__icon'></i>
+                            <span class="navegation-link__name">Promociones</span>
+                        </a>
+                        <i class='bx bx-chevron-down navegation-link__down'></i>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
